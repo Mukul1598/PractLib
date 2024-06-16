@@ -25,5 +25,5 @@ public class LibraryCard {
 
     private int noOfBookIssued;
 
-//    private Date validity;
+    private Date validity;
 }
