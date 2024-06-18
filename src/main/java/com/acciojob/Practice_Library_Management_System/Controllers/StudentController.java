@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/student")
 public class StudentController {
 
-    @Autowired
-    private StudentService studentService;
+//    @Autowired
+//    private StudentService studentService;
 
     @PostMapping("/add")
     public String addStudent(@RequestBody Student student){
