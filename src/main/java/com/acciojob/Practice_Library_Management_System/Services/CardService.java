@@ -25,7 +25,7 @@ public class CardService {
 
         card = cardRepository.save(card);
 
-//        return "The Library Card has been generated with cardID " + card.getCardNo();
+        return "The Library Card has been generated with cardID " + card.getCardNo();
     }
 
 }
