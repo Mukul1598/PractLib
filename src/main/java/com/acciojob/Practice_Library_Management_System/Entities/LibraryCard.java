@@ -26,4 +26,8 @@ public class LibraryCard {
     private int noOfBookIssued;
 
     private Date validity;
+
+    @JoinColumn
+    @OneToOne
+    private Student student;
 }
